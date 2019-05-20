@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+* {box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td, span, input { margin:0; padding:0;}
+body { font-size:14px; font-family:"\5FAE\8F6F\96C5\9ED1"; color:#333; -webkit-text-size-adjust:none;height:100%; position:relative;}
+h1, h2, h3, h4, h5, h6 { font-size:12px;}
+table{border-collapse:collapse;	border-spacing:0;}
+ul,li,ol{ list-style:none;}
+ins{ text-decoration:none;}
+i,em{ font-style:normal;}
+input{border:none;}
+select,input,button,button img,label{vertical-align:middle}
+body,h1,h2,h3,ul,li,form,p,img{border:0}
+input,button,select,img{margin:0;line-height:normal}
+/*链接颜色*/
+A{ color:#333; text-decoration:none; cursor:pointer;}
+a:hover{text-decoration: none; }
+/*通用属性*/
+.fl,.fr{display:inline}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear,.area{ zoom:1;}
+.clear:after,.area:after{ content:"."; display:block; visibility:hidden; height:0; clear:both;}

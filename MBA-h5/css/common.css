@@ -1,0 +1,90 @@
+@charset "utf-8";
+	/*css reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,img {
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0px;
+}
+fieldset,img {
+	border:none;
+	vertical-align:bottom;
+}
+adress,caption,cite,code,dfn,em,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+dl,ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:"";
+}
+abbr,acronym {
+	border:0;
+}
+input,button,select,textarea,a {
+	outline:none;
+}
+html,body {
+	font:16px/1.7em \5FAE\8F6F\96C5\9ED1;
+	color:#646464;
+}
+a {
+	color:#4e83d0;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+/**去除焦点边框*/
+* {
+	-webkit-tap-highlight-color:transparent;
+	-webkit-appearance:none;
+}
+/** 设置默认字体 **/
+body,button,input,select,textarea /* for ie */ {
+	font:14px/1.5 tahoma,arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+}
+address,cite,dfn,em,var {
+	font-style:normal;
+}
+/* 将斜体扶正 */
+code,kbd,pre,samp {
+	font-family:courier new,courier,monospace;
+}
+/* 统一等宽字体 */
+small {
+	font-size:12px;
+}
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+.fl,.fr {
+	display:inline;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.clear,.area{
+	}.clear::after,.area::after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+}
